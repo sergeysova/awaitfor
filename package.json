@@ -1,0 +1,32 @@
+{
+  "name": "awaitfor",
+  "version": "0.1.0",
+  "description": "Await when website is up and notificate",
+  "bin": {
+    "await": "bin/await.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LestaD/awaitfor.git"
+  },
+  "keywords": [
+    "await",
+    "http",
+    "check",
+    "up",
+    "down"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/LestaD/awaitfor/issues"
+  },
+  "homepage": "https://github.com/LestaD/awaitfor#readme",
+  "dependencies": {
+    "axios": "^0.11.1",
+    "node-notifier": "^4.5.0"
+  }
+}
